@@ -1,5 +1,6 @@
 # 2020 Hackathon
 ### To run: go to main_prog.py and click run
+#### First the initial picture will draw, then trees populate the bottom
 
 > **Date**: Saturday, April 4th, 2020
 >

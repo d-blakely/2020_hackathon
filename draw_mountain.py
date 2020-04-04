@@ -107,6 +107,7 @@ class Mountain:
         self.draw.pendown()
         # End ridges
 
+
         #  down shastina
         self.line(32, -30)
         self.line(20, -38)

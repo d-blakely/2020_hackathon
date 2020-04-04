@@ -6,7 +6,7 @@ class Tree:
     def __init__(self):
     # Get dimensions
         self.draw = turtle.Turtle()
-        self.draw.color("darkgreen")
+        self.draw.color("#00cc00")
         self.draw.speed(10)
         self.win = self.draw.getscreen()
         self.width = self.win.window_width()
@@ -48,7 +48,7 @@ class Tree:
             self.draw.pensize(3)
             self.draw.pendown()
             self.line(50, -90)
-            self.draw.color("green")
+            self.draw.color("#00cc00")
             self.draw.pensize(1)
 
 
@@ -58,7 +58,7 @@ class Tree:
         # x_start = -1 * width / 2
         y_lim = -1 * height / 4
 
-        for i in range(15):
+        for i in range(25):
             draw.penup()
             draw.setpos(randint(-1 * width/2, width/2), randint(-1 * height/2, int(y_lim)))
             draw.pendown()

@@ -1,4 +1,5 @@
 # 2020 Hackathon
+### To run: go to main_prog.py and click run
 
 > **Date**: Saturday, April 4th, 2020
 >
